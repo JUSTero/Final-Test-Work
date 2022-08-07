@@ -24,15 +24,19 @@ namespace Final_Test_Work
                 strings[i] = Console.ReadLine();
             }
 
+            Console.WriteLine();
             Console.WriteLine("Created array:");
 
             void ArrayPrint(string []array)
             {
+                Console.WriteLine();
+
                 for (int i = 0; i < array.Length; i++)
                 {
                     Console.Write(array[i] + " ");
                 }
 
+                Console.WriteLine();
                 Console.WriteLine();
             }
 
@@ -46,6 +50,10 @@ namespace Final_Test_Work
                     j++;
                 }
             }
+
+            Console.WriteLine("Final array:");
+            
+            ArrayPrint(finalArray);
         }
     }
 }
