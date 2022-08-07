@@ -9,6 +9,6 @@
 И, наконец, на экран выводится массив с подходящими строками.
 
 ## Прикладываю блок-схему решения задачи:
-![Блок-Схема](https://drive.google.com/file/d/1EX_0xa0l6csXexvaXA9SsWdG4TxJlyTY/view?usp=sharing)
+![Блок-Схема](https://drive.google.com/file/d/1cFwauhQBiD72nsjb5EsUtIyYA6_xMP65/view?usp=sharing)
 
 Также приложен файл VISIO с этой блок-схемой.
