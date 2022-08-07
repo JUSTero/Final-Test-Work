@@ -22,7 +22,17 @@ namespace Final_Test_Work
                 strings[i] = Console.ReadLine();
             }
 
+            void ArrayPrint(int []array)
+            {
+                Console.WriteLine();
 
+                for (int i = 0; i < array.Length; i++)
+                {
+                    Console.Write(array[i] + " ");
+                }
+
+                Console.WriteLine();
+            }
         }
     }
 }
