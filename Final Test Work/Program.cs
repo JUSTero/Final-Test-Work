@@ -10,6 +10,19 @@ namespace Final_Test_Work
     {
         static void Main(string[] args)
         {
+            Console.WriteLine("Enter number of elements");
+            int lenght = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine("Enter lengh limit of string");
+            int lenghtLimit = Convert.ToInt32(Console.ReadLine());
+            string[] strings = new string[lenght];
+
+            for (int i = 0; i < lenght; i++)
+            {
+                Console.WriteLine("Enter element");
+                strings[i] = Console.ReadLine();
+            }
+
+
         }
     }
 }
