@@ -15,6 +15,8 @@ namespace Final_Test_Work
             Console.WriteLine("Enter lengh limit of string");
             int lenghtLimit = Convert.ToInt32(Console.ReadLine());
             string[] strings = new string[lenght];
+            string[] finalArray = new string[lenght];
+            int j = 0;
 
             for (int i = 0; i < lenght; i++)
             {
@@ -24,7 +26,7 @@ namespace Final_Test_Work
 
             Console.WriteLine("Created array:");
 
-            void ArrayPrint(int []array)
+            void ArrayPrint(string []array)
             {
                 for (int i = 0; i < array.Length; i++)
                 {
@@ -34,7 +36,16 @@ namespace Final_Test_Work
                 Console.WriteLine();
             }
 
+            ArrayPrint(strings);
 
+            for (int i = 0; i < strings.Length; i++)
+            {
+                if (strings[i].Length <= lenghtLimit)
+                {
+                    finalArray[j] = strings[i];
+                    j++;
+                }
+            }
         }
     }
 }
