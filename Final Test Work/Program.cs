@@ -22,10 +22,10 @@ namespace Final_Test_Work
                 strings[i] = Console.ReadLine();
             }
 
+            Console.WriteLine("Created array:");
+
             void ArrayPrint(int []array)
             {
-                Console.WriteLine();
-
                 for (int i = 0; i < array.Length; i++)
                 {
                     Console.Write(array[i] + " ");
@@ -33,6 +33,8 @@ namespace Final_Test_Work
 
                 Console.WriteLine();
             }
+
+
         }
     }
 }
